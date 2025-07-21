@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.swp
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# VSCode, PyCharm
+.vscode/
+.idea/
+
+# Model ve scaler’ı da tutacağız, ama eğer istersen büyükse LFS kullan
+# xgb_bst_final.model
+# scaler_final.joblib
